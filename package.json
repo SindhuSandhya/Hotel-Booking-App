@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "concurrently \"npm start --prefix client\" \"node ./bin/www\"",
+    "start": "npm run build --prefix client && node ./bin/www"
+  },
+  "dependencies": {
+    "@tds/community-tags": "^1.0.2",
+    "@tds/core-chevron-link": "^2.1.16",
+    "@tds/core-interactive-icon": "^2.0.1",
+    "@tds/core-link": "^2.2.5",
+    "@tds/core-select": "^3.2.17",
+    "@tds/core-spinner": "^3.1.13",
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "google-maps-react": "^2.0.6",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "morgan": "~1.9.1",
+    "node-sass": "^4.14.1",
+    "react-star-rating-component": "^1.4.1"
+  },
+  "devDependencies": {
+    "@tds/community-modal": "^1.0.0",
+    "amadeus": "^5.0.0",
+    "typy": "^3.3.0"
+  }
+}

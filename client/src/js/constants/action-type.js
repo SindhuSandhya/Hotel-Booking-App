@@ -1,0 +1,5 @@
+export const ADD_HOTEL = "ADD_HOTEL";
+export const HOTEL_LIST_LOADED = "DATA_LOADED";
+export const SEARCH_HOTELS = "SEARCH_HOTELS";
+export const SEARCH_LOADED = "SEARCH_LOADED";
+export const SEARCH_ACTION = "SEARCH_ACTION"
